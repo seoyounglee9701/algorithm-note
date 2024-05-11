@@ -1,7 +1,5 @@
-while True:
-    a=input()
-    a=int(a)
-    if a==0:
-        break 
-    else:
-        print(a)
+a=int(input())
+
+while a!=0:
+    print(a)
+    a=a-1
